@@ -1,0 +1,23 @@
+#input {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+#input + label {
+    background-color: #777;
+    color: #f3f3f3;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 2em;
+    padding: 5px;
+}
+
+#input:focus + label {
+    outline: 5px solid lightskyblue;
+}
+
+canvas {
+    margin-top: 2em;
+}
